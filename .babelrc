@@ -1,0 +1,5 @@
+//command: npm i @babel/core @babel/node @babel/preset-env @babel/preset-react babel-loader
+
+{
+    "presets": ["@babel/env", "@babel/preset-react"]
+  }

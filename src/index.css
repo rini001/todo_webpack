@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 198);
+}
+#logo{
+    height: 4rem;
+    width: 4rem;
+}
+#myNotes{
+    color:rgb(78, 78, 211)
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.div2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.textArea{
+    width: 80%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.output{
+  text-align:center;
+  color:rgb(78, 78, 211)
+}
+#addBtn{
+    width: 30%;
+    height: 1.7rem;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    background-color:orange;
+}
+#addBtn:hover{
+    width: 30%;
+    height: 1.7rem;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    background-color:rgb(78, 78, 211);
+}
+h3{
+  color: blue;
+  font-size: 40px;
+}
